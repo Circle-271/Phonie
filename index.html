@@ -4,14 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
-
+    <title>Phonie</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h2>make some magic here!!</h2>
-
+        <header>
+        <img class="logo" src="img/logo.png" alt="">
+    </header>
+    <main class="flex container">
+        <div class="flex flex-container">
+            <div class="phonebooth"></div>
+            <!-- <img class="phonebooth" src="img/phone.jpg" alt="a telephone booth"> -->
+            <div class="second flex">
+                <div class="network flex">
+                    <img class="network-img mtn" src="img/mtn.png" alt="mtn logo" >
+                    <img class="network-img glo" src="img/glo.jfif" alt="glo logo">
+                    <img class="network-img etisalat" src="img/etisalat.png" alt="etisalat logo">
+                    <img class="network-img airtel" src="img/airtel.png" alt="airtel logo">
+                </div>
+                <div class="flex form-div">
+                    <form autocomplete="off"  action="#" method="POST">
+                        <label  for="phoneNumber">Phone Number</label>
+                        <input autocomplete="false" type="tel" id="phoneNumber" class="phone" placeholder="Phone number e.g(+234)">
+                    </form>
+                    <p class="warning"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="flex">
+        <p>© Circle 271</p>
+    </footer>
     <!-- // ============= EEND DO NOT EDIT ============== // -->
     <script src="index.mjs" type="module"></script>
     <!-- // ============= EEND DO NOT EDIT ============== // -->
