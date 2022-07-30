@@ -12,7 +12,7 @@ body {
     font-size: 1.2rem;
     color: black;
     line-height: 1.6;
-    background-image: url(../img/background.jpg);
+    background-image: url(img/background.jpg);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -57,7 +57,7 @@ input{
     flex-basis: 10.417em;
     min-width: 0;
     min-height: 0;
-    background-image: url(../img/phone.jpg);
+    background-image: url(img/phone.jpg);
     border-radius: 2em 2em 0 0;
     background-size: 400px 250px;
     background-position: bottom;
